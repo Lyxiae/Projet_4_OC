@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /font-size/index.html
+Disallow: /font-size/contact.html
+Disallow: /darkmode/index.html
+Disallow: /darkmode/contact.html
