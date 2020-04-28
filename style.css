@@ -487,7 +487,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -631,7 +631,7 @@ a {
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -639,7 +639,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -707,7 +707,7 @@ h3 {
 }
 
 .black-background {
-    background-color: rgba(100, 75, 50, 0.7);
+    background-color: rgba(100, 75, 50, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,6 +780,10 @@ h3 {
     font-style: italic;
 }
 
+.txt-white {
+    color:white;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -797,13 +801,13 @@ h3 {
 
 
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -821,10 +825,7 @@ h3 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -833,8 +834,7 @@ h3 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+
     }
 }
 
@@ -1028,6 +1028,9 @@ h3 {
     }
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .portfolio-thumb {
+        margin: auto;
     }
 }
 

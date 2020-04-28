@@ -46,6 +46,7 @@ function extraNavFuncs() {
 
 function setFillScreenBlocHeight() {
     $(".bloc-fill-screen").each(function(t) {
+        console.log("salut");
         var e = $(this);
         window.fillBodyHeight = 0, $(this).find(".container").each(function(t) {
             fillPadding = 2 * parseInt($(this).css("padding-top")), e.hasClass("bloc-group") ? fillBodyHeight = fillPadding + $(this).outerHeight() + 50 : fillBodyHeight = fillBodyHeight + fillPadding + $(this).outerHeight() + 50
@@ -189,14 +190,18 @@ function addLightBoxSwipeSupport() {
     })
 }
 $(document).ready(function() {
+    console.log("bonjour");
     $("#scroll-hero").click(function(t) {
+        console.log("scroll");
         t.preventDefault(), $("html,body").animate({
             scrollTop: $("#scroll-hero").closest(".bloc").height()
         }, "slow")
     }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
 }), $(window).load(function() {
+    console.log("a");
     setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
 }).resize(function() {
+    console.log("b");
     setFillScreenBlocHeight()
 }), $(function() {
     $('[data-toggle="tooltip"]').tooltip()

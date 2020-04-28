@@ -9,18 +9,28 @@
 
 <url>
   <loc>http://lyxiae.com/lachouetteagence/</loc>
-  <lastmod>2020-04-13T16:05:37+00:00</lastmod>
+  <lastmod>2020-04-21T08:31:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://lyxiae.com/lachouetteagence/index.html</loc>
-  <lastmod>2020-04-13T16:05:37+00:00</lastmod>
+  <lastmod>2020-04-21T08:31:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lyxiae.com/lachouetteagence/darkmode/index.html</loc>
+  <lastmod>2020-04-21T08:31:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://lyxiae.com/lachouetteagence/contact.html</loc>
-  <lastmod>2020-04-13T15:54:26+00:00</lastmod>
+  <lastmod>2020-04-21T08:39:26+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lyxiae.com/lachouetteagence/darkmode/contact.html</loc>
+  <lastmod>2020-04-21T08:39:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
